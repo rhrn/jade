@@ -103,6 +103,7 @@ var html = jade.renderFile('filename.jade', merge(options, locals));
  - `filename`  Used in exceptions, and required when using includes
  - `compileDebug`  When `false` no debug instrumentation is compiled
  - `pretty`    Add pretty-indentation whitespace to output _(false by default)_
+ - `resolvedPaths`  Resolved path for `extends` and `include`
 
 ## Browser Support
 
